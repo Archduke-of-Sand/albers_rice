@@ -28,14 +28,15 @@ def replicate_border(image: object, ratio: object) -> object:
 
     for col in range(cols):
         if not np.array_equal(image[0, col], image[rows - 1, col]):
-            start_col =
-def check_folder_rez(folder):
+            start_col = col
+    #use some machine learning module to extend the borders past screen resolution
+#def check_folder_rez(folder):
     folder_size = len(os.listdir(folder))
     # Get screen resolution
     screen_resolution = get_screen_resolution()
     # Count files already checked
     file_count = 0
-    deleted: bool = False
+    mastered: bool = False
 
     for file in folder:
         if file_count < folder_size:
@@ -50,12 +51,12 @@ def check_folder_rez(folder):
                     file_count += 1
                     continue
                 else:
-                    # Remove the file if it has the wrong resolution
-                    os.remove(file_path)
+                    # move file to Artworks/Master
+                    os.path.join(os.getcwd(), "artworks/master")
                     continue
             elif not file.endswith('.jpg') or not file.endswith('.png'):
                 # Skip the file if it's not a JPG or PNG file
                 file_count += 1
                 continue
             else:
-                return deleted==True
+                return mastered==True

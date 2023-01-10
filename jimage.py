@@ -98,7 +98,7 @@ class Image:
         # Get image size
         self.width, self.height = self.image.shape[:2]
 
-    def get_dominant_color(self):
+    def get_dom_color(self):
         # get the dominant color
         dominant_color = get_dominant_color(self.image)
         return dominant_color
@@ -121,3 +121,7 @@ class Image:
     def save(self, filepath):
         # save the resized and filled image
         cv2.imwrite(filepath, self.image)
+
+
+class JImage:
+    pass

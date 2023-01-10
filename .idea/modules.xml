@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../AlbersSort/.idea/AlbersSort.iml" filepath="$PROJECT_DIR$/../AlbersSort/.idea/AlbersSort.iml" />
       <module fileurl="file://$USER_HOME$/.local/share/larbs/albers_failed/.idea/albers_failed.iml" filepath="$USER_HOME$/.local/share/larbs/albers_failed/.idea/albers_failed.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sun_sort.iml" filepath="$PROJECT_DIR$/.idea/sun_sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/unsorted/.idea/unsorted.iml" filepath="$PROJECT_DIR$/unsorted/.idea/unsorted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artworks/.idea/unsorted.iml" filepath="$PROJECT_DIR$/artworks/.idea/unsorted.iml" />
     </modules>
   </component>
 </project>

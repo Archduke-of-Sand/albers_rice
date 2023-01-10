@@ -3,7 +3,7 @@ from jimage import Image
 
 
 # Set the path to the folder you want to search
-folder_path = os.path.join(os.getcwd(), "unsorted")
+folder_path = os.path.join(os.getcwd(), "artworks")
 
 
 
@@ -36,7 +36,7 @@ for file in files:
             image.save(file_path)
 
             # Get the dominant color
-            dominant_color = image.get_dominant_color()
+            dominant_color = image.get_dom_color()
 
             # create the full path to the sunset, noon, and sunrise directories
             sunset_dir = os.path.join(os.getcwd(), 'sunset')
