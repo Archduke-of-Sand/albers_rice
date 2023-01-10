@@ -1,8 +1,11 @@
 import os
-from albers_sort import Image
+from jimage import Image
+
 
 # Set the path to the folder you want to search
-folder_path = '~dt/larbs/albers/unsorted'
+folder_path = os.path.join(os.getcwd(), "unsorted")
+
+
 
 # Get a list of all the files in the folder
 files = os.listdir(folder_path)

@@ -8,5 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="AlbersSort" />
     <orderEntry type="module" module-name="albers_failed" />
+    <orderEntry type="module" module-name="unsorted" />
   </component>
 </module>
