@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AlbersSort/.idea/AlbersSort.iml" filepath="$PROJECT_DIR$/../AlbersSort/.idea/AlbersSort.iml" />
+      <module fileurl="file://$USER_HOME$/.local/share/larbs/albers_failed/.idea/albers_failed.iml" filepath="$USER_HOME$/.local/share/larbs/albers_failed/.idea/albers_failed.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sun_sort.iml" filepath="$PROJECT_DIR$/.idea/sun_sort.iml" />
     </modules>
   </component>

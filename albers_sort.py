@@ -1,11 +1,18 @@
+import subprocess
+
 import cv2
 import numpy as np
 import utils
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
-
-def replicate_border(image, ratio):
+#find resolution of current monitor
+def get_screen_resolution():
+    output = subprocess.check_output(['xrandr'])
+    resolution = output.split()[7]
+    resolution = resolution.split(b'x')
+    return resolution
+def replicate_border(image: object, ratio: object) -> object:
     # Get the dimensions of the image
     rows, cols, _ = image.shape
 
@@ -49,6 +56,11 @@ def replicate_border(image, ratio):
 
 
 def get_dominant_color(image: object) -> object:
+    """
+
+    :param image:
+    :return:
+    """
     # reshape the image to be a list of pixels
     image = image.reshape((image.shape[0] * image.shape[1], 3))
 

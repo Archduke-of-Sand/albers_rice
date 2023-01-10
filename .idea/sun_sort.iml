@@ -6,5 +6,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="AlbersSort" />
+    <orderEntry type="module" module-name="albers_failed" />
   </component>
 </module>
